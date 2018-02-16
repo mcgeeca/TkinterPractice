@@ -15,8 +15,8 @@ from tkinter import ttk  # Necessary in all but this trivial example.
 
 
 def main():
-    root = tkinter.Tk()
-    root.mainloop()
+    root = tkinter.Tk() # makes a window
+    root.mainloop() # infinite while loop goes until the program is closed
 
     print('Done with the Event Loop')  # Note when this line runs.
 
